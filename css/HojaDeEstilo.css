@@ -1,0 +1,301 @@
+*html {
+  font-size: 62.5%;
+}
+*body {
+  font-size: 16px;
+  font-family: "Sarabun", sans-serif;
+  background-image: linear-gradient(to top, grey 0%, blanchedalmond 100%);
+}
+
+/* #solicitadas .sombras{
+    -webkit-caja-sombra: 6px 6px 7px 3px rgba(107,103,107,1);
+-moz-caja-sombra: 6px 6px 7px 3px rgba(107,103,107,1);
+sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+#header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+  padding: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+#header .header_logo {
+  background: rgb(128, 101, 81);
+  background: radial-gradient(
+    circle,
+    rgba(128, 101, 81, 1) 0%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(61, 47, 35, 1) 56%,
+    rgba(67, 53, 42, 1) 91%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  cursor: pointer;
+}
+
+#header .header__menu li {
+  display: inline;
+  list-style: none;
+  padding: 1rem;
+}
+
+#header .header__menu li a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0 10px;
+  padding-inline-start: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  
+  
+}
+#header .header__menu li a:hover {
+  background: rgb(41, 18, 20);
+  background: radial-gradient(
+    circle,
+    rgba(41, 18, 20, 1) 0%,
+    rgba(80, 63, 63, 1) 33%,
+    rgba(0, 0, 0, 1) 95%,
+    rgba(0, 0, 0, 1) 100%);
+    
+  
+}
+#intro {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/cerradura\ portada.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* animation-duration: 2s;
+    animation-name: slidein; */
+    
+}
+
+#intro .intro__title {
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+/* TITULOS PRINCIPALES */
+#recomendaciones .recomendaciones__titulo {
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+
+  color: white;
+  text-align: center;
+  padding: 35px;
+  font-size: 30px;
+  font-family: Sarabun;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+#solicitadas .titulotres .modelos {
+  background: rgb(128, 101, 81);
+  background: radial-gradient(
+    circle,
+    rgba(128, 101, 81, 1) 0%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(61, 47, 35, 1) 56%,
+    rgba(67, 53, 42, 1) 91%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  font-family: Sarabun;
+}
+#youtube .tituloYT {
+  background: rgb(128, 101, 81);
+  background: radial-gradient(
+    circle,
+    rgba(128, 101, 81, 1) 0%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(96, 76, 61, 1) 14%,
+    rgba(61, 47, 35, 1) 56%,
+    rgba(67, 53, 42, 1) 91%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: px 1px 1px 1px;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  font-family: Sarabun;
+}
+/* FIN TITULOS PRINCIPALES */
+#intro .btnver a {
+  position: relative;
+  background-color: grey;
+  color: blanchedalmond;
+  padding: 15px 2rem;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 14rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media (min-width: 768px) {
+  .btnver {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+  }
+}
+/* /efecto derecha a izq*  */
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) {
+  #intro .btnver a {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.service {
+  width: 100%;
+}
+#recomendaciones {
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-top: 7rem;
+}
+.imgpPuertasNegras{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+
+
+}
+
+
+
+@media (min-width: 901px) {
+  .imgpPuertasNegras {
+    grid-template-columns: 25% 25% 25%;
+     column-gap: 10px;
+     /* animation-duration: 3s;
+     animation-name: slidein; */
+  }
+}
+@media (max-width: 900px) {
+  .imgpPuertasNegras {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 3px;
+  }
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Sarabun", sans-serif;
+  
+}
+
+.videos {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-top: 3px;
+  margin-bottom: 50px;
+  column-gap: 1px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .videos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    justify-items: center;
+  }
+}
+.video1{
+  max-width: 100%;
+}
+
+
+
+
+
+/* CATALOGO DE PRUBA  */
+.catalogo__titulo{
+  background-color: grey;
+  color: white;
+  padding: 80px;
+}
+
+/* @media (min-width: 760px){
+  .catalogo__titulo{
+    font-size: 3rem;
+    
+    
+  }
+} */
+
+  .grid-contenedor{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 3fr 3fr;
+    gap: 10px ;
+    padding: 10px;
+    justify-content: center;
+    align-content:center ;
+    justify-items: center;
+    align-items: center;
+
+  }
+  .grid-item{
+    background-color: yellow;
+    justify-items: center;
+    align-items:center ;
+  }
+
+
+ 
