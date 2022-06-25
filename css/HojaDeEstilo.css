@@ -297,5 +297,18 @@ h2 {
     align-items:center ;
   }
 
+  @media (max-width: 940px){
+    #header .header__menu li a{
+      display: block;
+      align-items: center;
+    }
+    #header .imagenLogo{
+      
+      height: 7rem; 
+      width: 7rem;
+      background-color: grey;
+    }
+  }
 
- 
+  
+  
