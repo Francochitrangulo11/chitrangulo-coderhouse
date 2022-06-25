@@ -65,8 +65,8 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
-  
-  
+
+
 }
 #header .header__menu li a:hover {
   background: rgb(41, 18, 20);
@@ -76,11 +76,12 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
     rgba(80, 63, 63, 1) 33%,
     rgba(0, 0, 0, 1) 95%,
     rgba(0, 0, 0, 1) 100%);
-    
-  
+
+
 }
 #intro {
   height: 600px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,9 +89,8 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /* animation-duration: 2s;
-    animation-name: slidein; */
-    
+  background-size: cover;
+
 }
 
  #intro .intro__title {
@@ -240,7 +240,7 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   font-family: "Sarabun", sans-serif;
-  
+
 }
 
 .videos {
@@ -279,8 +279,8 @@ h2 {
 /* @media (min-width: 760px){
   .catalogo__titulo{
     font-size: 3rem;
-    
-    
+
+
   }
 } */
 
@@ -309,15 +309,10 @@ h2 {
       align-items: center;
     }
     #header .imagenLogo{
-      
-      height: 7rem; 
+
+      height: 7rem;
       width: 7rem;
       background-color: grey;
     }
-    #intro .intro__title{
-      font-size: 1.5rem;
-    }
   }
 
-  
-  
