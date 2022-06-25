@@ -12,54 +12,64 @@
   <enlace href="https://fonts.googleapis.com/css2? family= Sarabun:ital,wght@1,700 & display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/HojaDeEstilo.css">
   <link rel="shortcut icon" href="logo/kisspng-door-light-logo-door-number-5adcfa761aaf85.2325902715244314781093.png" class="logo_pestaña" >  <!--logo de pestaña-->
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-  <header id="header">   
-    <div class="header_logo">
-      <img src="logo/kisspng-door-light-logo-door-number-5adcfa761aaf85.2325902715244314781093.png" alt="logo-puerta" class="imagenLogo" height="50px" width="50px"> 
-    </div>                    
-    <nav class="header__menu"> 
-      <ul>
-        <!--barras-->
-        <li><a href="#">Home</a></li>                   
-        <li><a href="catal/catalogo.html">Catalago</a></li>
-        <li><a href="Solicitar-cotizacion/solicitar_cotizacion.html">Solicitar cotizacion</a></li>
-        <li><a href="./contacto/contacto.html">Contacto</a></li>
-        <li><a href="./accesorios/accesorios.html">Accesorios</a></li>
-      </ul>                   
-    </nav>
-  </header>
-                            
+  <div class="container.fluid">
 
-      <!--imagen de portada debajo del encabezado-->
-       <!-- <div class="imagenPortada">
+    <header id="header">   
+      <div class="header_logo">
+        <img src="logo/kisspng-door-light-logo-door-number-5adcfa761aaf85.2325902715244314781093.png" alt="logo-puerta" class="imagenLogo" height="50px" width="50px"> 
+      </div>                    
+      <nav class="header__menu"> 
+        <ul>
+          <!--barras-->
+          <li><a href="#">Home</a></li>                   
+          <li><a href="./catal/catalogo.html">Catalago</a></li>
+          <li><a href="./Solicitar-cotizacion/solicitar_cotizacion.html">Solicitar cotizacion</a></li>
+          <li><a href="./contacto/contacto.html">Contacto</a></li>
+          <li><a href="./accesorios/accesorios.html">Accesorios</a></li>
+        </ul>                   
+      </nav>
+    </header>
+    
+    
+    <!--imagen de portada debajo del encabezado-->
+    <!-- <div class="imagenPortada">
       <img src="" width="100%" height="auto" alt="IMG PUERTAS DE SEGURIDAD">  
-       </div> -->
-
-       <main id="intro">
-           <div class="intro__title">
-             <h1 class="tituloPrincipal">Puertas de seguridad Franca</h1>
-             <h2 class="recomendaciones__titulo" >
-              Vivir mas seguro es posible
-             </h2>
-             <div class="btnver">
-              <a href="catal/catalogo.html">Ver mas..</a>
-            </div>
-            </div>
-         </main>
- <div class="service">
-   <section id="recomendaciones" >
-      <div class="imgpPuertasNegras">
-        <div class="recomendacionitem">
-          <img src="https://puertasbrandsen.com.ar/wp-content/uploads/2022/02/icon-2_mayorista-puertas-de-seguridad.png" alt="recomedacion" >
-          <h2>PRECIOS ESPECIALES</h2>
-          <p>A constructoras – Arquitectos – Empresas Materiales<br> para construcción – Distribuidores minoristas</p>
+    </div> -->
+    
+    <main id="intro">
+      <div class="intro__title">
+        <h1 class="tituloPrincipal">Puertas de seguridad Franca</h1>
+        <h2 class="recomendaciones__titulo" >
+          Vivir mas seguro es posible
+        </h2>
+        <div class="btnver">
+          <a href="catal/catalogo.html">Ver mas..</a>
         </div>
-                      
-        <div  class="recomendacionitem">
-          <img src="https://puertasbrandsen.com.ar/wp-content/uploads/2022/02/icon-5_puertas-blindadas.png" alt="recomedacion" >              
+        
+      </div>
+          </main>
+  </div> <!--cierre de div container para boottrap-->
+  
+  
+  
+  <div class="service">
+      <section id="recomendaciones" >
+        <div class="imgpPuertasNegras">
+          <div class="recomendacionitem">
+            <img src="https://puertasbrandsen.com.ar/wp-content/uploads/2022/02/icon-5_puertas-blindadas.png" alt="recomedacion" >              
           <h2>STOCK PERMANENTE </h2>
           <p>Somos importadores directos.  Contamos con el Stock<br> permanente mas grande de Argentina</p>
+            
+        </div>
+               
+        <div  class="recomendacionitem">
+          <img src="https://puertasbrandsen.com.ar/wp-content/uploads/2022/02/icon-2_mayorista-puertas-de-seguridad.png" alt="recomedacion" >
+          <h2>PRECIOS ESPECIALES</h2>
+        <p>A constructoras – Arquitectos – Empresas Materiales<br> para construcción – Distribuidores minoristas</p>  
         </div>                
         <div  class="recomendacionitem">
           <img src="https://puertasbrandsen.com.ar/wp-content/uploads/2022/02/icon-1_puertas-de-seguridad.png" alt="recomedacion" >
@@ -93,9 +103,9 @@
           </div>
             <!-- quiero armar grid con fotos de puertas -->
             <div class="img__solicitadas">
-                <img src="/imagenes/puerta 1.JPG" alt="puerta1">
-                <img src="/imagenes/puerta 2.JPG" alt="puerta2">
-                <img src="/imagenes/puerta 3.JPG" alt="puerta3">
+                <img src="./imagenes/Barcelona1/portada.jpg" alt="puerta1">
+                <img src="./imagenes/malaga5/portada.PNG" alt="puerta2">
+                <img src="./imagenes/miami.JPG" alt="puerta3">
             </div>
             
         </section>
@@ -147,5 +157,12 @@
   <img src="/frann/imagenes/cerradura portada.jpg" alt="">
   <h2>hola</h2>
 </div>
+
+<div class="conteiner bg-dark text-light mt-5 p-5">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corrupti, quisquam mollitia, aspernatur accusantium impedit quibusdam, laudantium vel maxime atque doloribus odio cupiditate sequi consectetur tempora provident eos eum hic.</p>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
