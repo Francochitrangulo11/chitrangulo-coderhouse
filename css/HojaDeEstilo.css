@@ -93,13 +93,19 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
     
 }
 
-#intro .intro__title {
+ #intro .intro__title {
   font-family: "Alfa Slab One", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
-}
+   font-size: 35px; }
+
 /* TITULOS PRINCIPALES */
+
+
+
+
+
+
 #recomendaciones .recomendaciones__titulo {
   margin-bottom: 50px;
   padding-bottom: 0px;
@@ -307,6 +313,9 @@ h2 {
       height: 7rem; 
       width: 7rem;
       background-color: grey;
+    }
+    #intro .intro__title{
+      font-size: 1.5rem;
     }
   }
 
