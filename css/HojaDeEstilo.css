@@ -315,5 +315,20 @@ h2 {
       width: 12rem;
       
     }
+    #intro .tituloPrincipal{
+      text-align: center;
+      font-size: 2rem;
+    }
+    #intro .recomendaciones__titulo{
+      text-align: center;
+
+    }
+    .btnver{
+      text-align: center;
+    }
+  
+  
   }
+
+
 
