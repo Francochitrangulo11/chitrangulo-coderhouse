@@ -302,7 +302,8 @@ h2 {
     justify-items: center;
     align-items:center ;
   }
-
+   
+  /* medias quiari de la portada */
   @media (max-width: 940px){
     #header .header__menu li a{
       display: block;
@@ -326,9 +327,9 @@ h2 {
     .btnver{
       text-align: center;
     }
-  
-  
   }
+  
+  
 
 
 
