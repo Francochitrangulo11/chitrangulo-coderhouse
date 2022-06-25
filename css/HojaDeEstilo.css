@@ -312,8 +312,8 @@ h2 {
     }
     #header .imagenLogo{
 
-      height: 12rem;
-      width: 12rem;
+      height: 9rem;
+      width: 9rem;
       
     }
     #intro .tituloPrincipal{
@@ -324,9 +324,12 @@ h2 {
       text-align: center;
 
     }
-    .btnver{
+    .btnver {
       text-align: center;
+      margin-top: 5rem;
+      
     }
+
   }
   
   
