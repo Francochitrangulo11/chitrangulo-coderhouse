@@ -307,7 +307,17 @@ h2 {
   }
    
   /* medias quiari de la portada */
-  @media (max-width: 940px){
+  
+  @media (min-width: 940px){
+
+    #intro .tituloPrincipal{
+      text-align: center;
+      font-size: 5rem;
+      font:bold; 
+    }
+  }
+  
+  @media (max-width: 940px) {
     #header .header__menu li a{
       display: block;
       text-align: right;
@@ -319,11 +329,7 @@ h2 {
       width: 9rem;
       
     }
-    #intro .tituloPrincipal{
-      text-align: center;
-      font-size: 2rem;
-      font:bold;
-    }
+     
     #intro .recomendaciones__titulo{
       text-align: center;
 
@@ -334,10 +340,11 @@ h2 {
       
     }
 
-  }
+  
   #solicitadas .img__solicitadas{
     width: ; 30rem
     height: auto;
+  }
   }
   
 
