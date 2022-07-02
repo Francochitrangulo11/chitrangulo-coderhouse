@@ -139,6 +139,8 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   font-size: 30px;
   font-family: Sarabun;
 }
+
+
 #youtube .tituloYT {
   background: rgb(128, 101, 81);
   background: radial-gradient(
@@ -347,6 +349,40 @@ h2 {
   }
   }
   
+#footer .logof{
+  width: 2rem;
+  height: auto;
+}
 
+#footer .logos{
+display: flex;
+justify-content: center;
 
+}
+#footer .logo__footer .logo__tamaño{
+  margin-left: 39.5rem;
+  padding-bottom: 10px;
+  width: 4rem;
+  height: auto;
 
+ 
+}
+@media (max-width: 1300px){
+  #footer .logo__footer .logo__tamaño{
+    display: none;
+  }
+}
+
+  /* pagina contacto */
+
+  #barras{
+    display: block;
+    
+    width: 50px;
+    margin-left: 20px;
+    
+}
+.img__contacto{
+
+  position: absolute;
+}
