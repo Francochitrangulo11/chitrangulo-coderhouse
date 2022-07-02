@@ -1,0 +1,55 @@
+$colorTitulos: black;
+$colorLetra: green;
+$font: 25px san-serif;
+$color__fondo: grey;
+$colorSecundario: aqua;
+
+
+ 
+
+#section {
+    background-color: $color__fondo;
+    
+    .titulo{
+text-align: center;
+font-size: $font;
+color: $colorTitulos;
+padding: 25px;
+background-color: blueviolet;
+    }
+    
+    
+    .recomedar{
+    background-color: $colorSecundario;
+    display: grid;
+    justify-content: center;
+    align-content:center ;
+    justify-items: center;
+    align-items: center;
+   }
+    
+    .recomendar1{
+        background-color: $color__fondo;
+    }
+       
+}
+
+#solicitadas{
+    .titulotres{
+        background-color: $colorSecundario;
+    }
+.modelos{
+    text-align: center;
+    font-size: $font;
+    padding: 30px;
+
+}
+.img__solicitadas{
+    
+    display: flexbox;
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-top: 7rem; 
+ 
+}
+}

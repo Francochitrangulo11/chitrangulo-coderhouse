@@ -1,0 +1,36 @@
+#section {
+  background-color: grey;
+}
+#section .titulo {
+  text-align: center;
+  font-size: 25px san-serif;
+  color: black;
+  padding: 25px;
+  background-color: blueviolet;
+}
+#section .recomedar {
+  background-color: aqua;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+#section .recomendar1 {
+  background-color: grey;
+}
+
+#solicitadas .titulotres {
+  background-color: aqua;
+}
+#solicitadas .modelos {
+  text-align: center;
+  font-size: 25px san-serif;
+  padding: 30px;
+}
+#solicitadas .img__solicitadas {
+  display: flexbox;
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-top: 7rem;
+}/*# sourceMappingURL=estilo.css.map */
