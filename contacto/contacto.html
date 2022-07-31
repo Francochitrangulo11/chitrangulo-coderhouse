@@ -12,90 +12,76 @@
 </head>
 <body>
     
-    <header id="header">   
-        <div class="header_logo">
-          <img src="../logo/kisspng-door-light-logo-door-number-5adcfa761aaf85.2325902715244314781093.png" alt="logo-puerta" class="imagenLogo" height="50px" width="50px">
-        </div>
-        <nav class="header__menu"> 
-          <ul>
-            <!--barras-->
-            <li><a href="/index.html">Home</a></li>                   
-            <li><a href="../catal/catalogo.html">Catalago</a></li>
-            <li><a href="../Solicitar-cotizacion/solicitar_cotizacion.html">Solicitar cotizacion</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="../accesorios/accesorios.html">Accesorios</a></li>
-          </ul>                   
-        </nav>
-      </header>
+     
+       <div id="navbar">
+      <ul class="nav  nav-fill barranav">
+        <li class="nav-item">
+          <a class="nav-link active color" aria-current="page" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/catal/catalogo.html">Catalogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Solicitar-cotizacion/solicitar_cotizacion.html">Solicitar cotizacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contacto/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/accesorios/accesorios.html">Accesorios</a>
+        </li>
+      </ul>
+      
+      </div>
+     
 
 <div class="catalogo__titulo">
     <h1>CONTACTO</h1>
 </div>
 
+<!-- <main class="barras"> -->
 
-
-   <section id="barras">
-    <div>
+  
+  <!-- <section id="barras">
+    <div class="formulario" >
       <form action="">  
-        <div>
-        <label for="">Tu nombre </label>
+        <div class="nombre">
+          <label for="">Tu nombre </label>
         <input type="text">
       </div>
      
       <div>
-      <label for="">Tu correo electronico</label>
+        <label for="">Tu correo electronico</label>
         <input type="email" name="" id="">
       </div>
       
       <div>
-      <label for="">Celular movil</label>
+        <label for="">Celular movil</label>
         <input type="tel" name="" id="">
       </div>
       
       <div>
-      <label for="">Asunto</label>    
+        <label for="">Asunto</label>    
         <input type="text">
       </div>
-        
+      
       <div>
         <label for="">Tu mensaje (opcional) </label>    
         <input type="text" name="" id=""> 
       </div>
-    </form>
+    </form> -->
+    
+    <form action="#">
+      <h2 class="contactoTitulo">CONTACTO</h2>
+      <input class="input_1" type="text" name="Nombre" placeholder="Nombre">
+      <input class="input_1 type="email" name="Correo" placeholder="Correo">
+      <input class="input_1 type="Telefono" name="Telefono" placeholder="Telefeno">
+      <textarea name="Mensaje" placeholder="Escriba su consulta" class="text_area"></textarea>
+      <input type="button" value="ENVIAR" class="botonEnviar" >  
+  </form>
      
-    <div class="img__contacto">
-      <img src="https://puertablindada.com/wp-content/uploads/2021/01/puerta.jpeg" alt="">
-    </div>
-     
-
-      <!-- <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Acepto recibir notificaciones sobre novedades</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-  </div>
-     --> -->
-  
-  
-  
-
-  
-
-
-</section>
-
-</div>
+    
+  </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

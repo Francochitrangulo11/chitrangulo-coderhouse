@@ -22,75 +22,50 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
 
 
 
-#header {
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: antiquewhite;
-  padding: 10px;
+/* Barra nav */
+ 
+  
+#navbar{
+ 
   animation-duration: 3s;
-  animation-name: slidein;
+  animation-name: slidein;  
+  
 }
 
-#header .header_logo {
-  background: rgb(128, 101, 81);
-  background: radial-gradient(
-    circle,
-    rgba(128, 101, 81, 1) 0%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(61, 47, 35, 1) 56%,
-    rgba(67, 53, 42, 1) 91%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  cursor: pointer;
+
+
+#navbar li a {
+  color: black;
+  padding: 10px;
+  margin:10px;
+
+ 
+  
 }
 
-#header .header__menu li {
-  display: inline;
-  list-style: none;
-  padding: 1rem;
-}
-
-#header .header__menu li a {
-  text-decoration: none;
-  color: whitesmoke;
-  margin: 0 10px;
-  padding-inline-start: 10px;
-  padding-right: 10px;
-  padding-bottom: 3px;
-  padding-top: 3px;
+#navbar a:hover{
+  background-color: rgb(119, 118, 118);
+  color: white;
   border-radius: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 15px;
-
-
+  transition: 0.5s;
+  transform: scale(1.2);
 }
-#header .header__menu li a:hover {
-  background: rgb(41, 18, 20);
-  background: radial-gradient(
-    circle,
-    rgba(41, 18, 20, 1) 0%,
-    rgba(80, 63, 63, 1) 33%,
-    rgba(0, 0, 0, 1) 95%,
-    rgba(0, 0, 0, 1) 100%);
 
+/* Imagen portada y su texto */
 
-}
 #intro {
   height: 600px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../imagenes/cerradura\ portada.jpg) ;
+  background-image: linear-gradient(rgba(5,7,12,0.4), rgba(33, 34, 37, 0.4)), 
+  url(../imagenes/cerradura\ portada.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-size: cover;
-
+  
+  
+   
 }
 
  #intro .intro__title {
@@ -98,7 +73,16 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
    font-size: 35px; }
+   
+   
+   .intro__title .tituloPrincipal{
+   color: rgb(245, 243, 243);
+   font-family: fantasy;
+   }
 
+   #intro  .recomendaciones__titulo{
+    color: #fff;
+   }
 /* TITULOS PRINCIPALES */
 
 
@@ -125,11 +109,11 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   background: rgb(128, 101, 81);
   background: radial-gradient(
     circle,
-    rgba(128, 101, 81, 1) 0%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(61, 47, 35, 1) 56%,
-    rgba(67, 53, 42, 1) 91%,
+    rgb(150, 144, 140) 0%,
+    rgb(150, 144, 140) 14%,
+    rgb(150, 144, 140) 14%,
+    rgb(129, 127, 125) 56%,
+    rgb(0, 0, 0) 91%,
     rgba(0, 0, 0, 1) 100%
   );
   margin-top: 5px;
@@ -137,7 +121,8 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   text-align: center;
   padding: 30px;
   font-size: 30px;
-  font-family: Sarabun;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 
@@ -145,11 +130,11 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   background: rgb(128, 101, 81);
   background: radial-gradient(
     circle,
-    rgba(128, 101, 81, 1) 0%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(96, 76, 61, 1) 14%,
-    rgba(61, 47, 35, 1) 56%,
-    rgba(67, 53, 42, 1) 91%,
+    rgb(150, 144, 140) 0%,
+    rgb(150, 144, 140) 14%,
+    rgb(150, 144, 140) 14%,
+    rgb(129, 127, 125) 56%,
+    rgb(0, 0, 0) 91%,
     rgba(0, 0, 0, 1) 100%
   );
   padding: px 1px 1px 1px;
@@ -158,7 +143,8 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   text-align: center;
   padding: 30px;
   font-size: 30px;
-  font-family: Sarabun;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 /* FIN TITULOS PRINCIPALES */
 #intro .btnver a {
@@ -212,6 +198,7 @@ sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
   margin-bottom: 10rem;
   margin-top: 7rem;
 }
+
 .imgpPuertasNegras{
   display: grid;
   justify-content: center;
@@ -249,14 +236,12 @@ h2 {
 }
 
 .videos {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  margin-top: 3px;
-  margin-bottom: 50px;
-  column-gap: 1px;
-  align-items: center;
+ display: flex;
+  overflow: hidden;
+ gap: 10px;
+}
+.videos iframe {
+  float: left;
 }
 @media (max-width: 900px) {
   .videos {
@@ -375,14 +360,115 @@ justify-content: center;
 
   /* pagina contacto */
 
-  #barras{
-    display: block;
-    
-    width: 50px;
-    margin-left: 20px;
-    
+ 
+ 
+ form{
+  width: 500px; 
+  margin: auto;
+  background:rgb(128, 101, 81);
+  background:radial-gradient(
+    circle,
+    rgb(150, 144, 140) 0%,
+    rgb(150, 144, 140) 14%,
+    rgb(150, 144, 140) 14%,
+    rgb(129, 127, 125) 56%,
+    rgb(0, 0, 0) 91%,
+    rgba(0, 0, 0, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%vh;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  
+ }
+ 
+ .contactoTitulo{
+  color:#fff ;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: monospace;
+ }
+.input_1, .text_area{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
 }
-.img__contacto{
 
-  position: absolute;
+ 
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+
+} 
+ 
+ .botonEnviar{
+  background: rgb(87, 85, 85);
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+
+ }
+
+ 
+ @media (max-width:480px){
+  form{
+    width: 100%;
+
+  }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Barra nav */
+ 
+  
+#navbar{
+ 
+  animation-duration: 3s;
+  animation-name: slidein;  
+  
 }
+
+
+
+#navbar li a {
+  color: black;
+  padding: 10px;
+  margin:10px;
+
+ 
+  
+}
+
+#navbar a:hover{
+  background-color: rgb(119, 118, 118);
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
