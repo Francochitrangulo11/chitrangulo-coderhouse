@@ -7,12 +7,6 @@
   background-image: linear-gradient(to top, grey 0%, blanchedalmond 100%);
 }
 
-/* #solicitadas .sombras{
-    -webkit-caja-sombra: 6px 6px 7px 3px rgba(107,103,107,1);
--moz-caja-sombra: 6px 6px 7px 3px rgba(107,103,107,1);
-sombra de caja: 6px 6px 7px 3px rgba(107,103,107,1);
-} */
-
 * {
   margin: 0;
   padding: 0;
